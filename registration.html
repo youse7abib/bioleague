@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration | BioLeague</title>
+  <meta name="theme-color" content="#1D5858" />
+  <link rel="icon" type="image/png" href="../../images/logo-png.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="bioleague.css" />
+</head>
+
+<body>
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav id="navbar" class="navbar">
+    <div class="navbar__inner">
+      <div class="navbar__top-row">
+        <div class="logoDiv">
+          <a href="index.html" class="navbar__logo">
+            <img src="../../images/program-competition.png" alt="BioLeague Logo" class="navbar__logo-img" />
+          </a>
+        </div>
+
+        <ul class="navbar__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="format.html">Format</a></li>
+          <li><a href="challenges.html">Challenges</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+
+        <div class="navbar__actions">
+          <button id="themeToggle" class="navbar__btn navbar__btn--theme" aria-label="Toggle dark mode">
+            <svg id="themeIcon" class="navbar__btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+            <span id="themeLabel">Dark</span>
+          </button>
+
+          <a href="registration.html" class="navbar__btn navbar__btn--contact">
+            <svg class="navbar__btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9-4-18-3 9H2"/>
+            </svg>
+            <span>Register</span>
+          </a>
+        </div>
+
+        <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu">
+          <svg class="navbar__hamburger-icon navbar__hamburger-icon--menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="navbar__hamburger-icon navbar__hamburger-icon--close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="navbar__mobile-menu" id="mobileMenu">
+        <a href="index.html" class="navbar__mobile-link">Home</a>
+        <a href="about.html" class="navbar__mobile-link">About</a>
+        <a href="format.html" class="navbar__mobile-link">Format</a>
+        <a href="challenges.html" class="navbar__mobile-link">Challenges</a>
+        <a href="resources.html" class="navbar__mobile-link">Resources</a>
+
+        <div class="navbar__mobile-actions">
+          <button id="themeToggleMobile" class="navbar__btn navbar__btn--theme navbar__btn--full" aria-label="Toggle dark mode">
+            <svg id="themeIconMobile" class="navbar__btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+            <span id="themeLabelMobile">Switch to Dark Mode</span>
+          </button>
+
+          <a href="registration.html" class="navbar__btn navbar__btn--contact navbar__btn--full">
+            <svg class="navbar__btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9-4-18-3 9H2"/>
+            </svg>
+            Register
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       PAGE CONTENT
+       ============================================================ -->
+  <section class="bl-section" style="padding-top: 3.5rem;">
+    <div class="bl-inner">
+      <div class="bl-section__head">
+        <h2 class="reveal">Registration</h2>
+        <p class="reveal" data-delay="100">Submit your team (up to 4 members) or register as an individual.</p>
+      </div>
+
+      <div class="bl-grid-2">
+        <div class="bl-card reveal" data-delay="150">
+          <h3>Before you register</h3>
+          <ul class="bl-list">
+            <li><span class="bl-list__dot"></span><span>Review the official syllabus and brochure in the Format page.</span></li>
+            <li><span class="bl-list__dot"></span><span>Practice with past years exams from the Challenges page.</span></li>
+            <li><span class="bl-list__dot"></span><span>Phase 1 is an open-round multiple-choice exam; top teams qualify to Phase 2.</span></li>
+          </ul>
+
+          <div style="height: 1.25rem;"></div>
+          <a href="format.html" class="bl-link" style="color: #fff; text-decoration:none;">
+            Download Syllabus &amp; Brochure
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <div class="bl-form reveal" data-delay="250">
+          <h3>Register for BioLeague</h3>
+          <p>Fill in your details. This form validates inputs and shows a confirmation message.</p>
+
+          <form id="registrationForm">
+            <div class="bl-form__grid bl-form__grid--2">
+              <div class="field">
+                <label for="regCategory">Registration Type <span class="req">*</span></label>
+                <select id="regCategory" required>
+                  <option value="" selected>Select type</option>
+                  <option value="individual">Individual</option>
+                  <option value="team">Team (up to 4 members)</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="participantGrade">Grade / Year <span class="req">*</span></label>
+                <select id="participantGrade" required>
+                  <option value="" selected>Select grade/year</option>
+                  <option value="grade-9">Grade 9</option>
+                  <option value="grade-10">Grade 10</option>
+                  <option value="grade-11">Grade 11</option>
+                  <option value="grade-12">Grade 12</option>
+                  <option value="gap-year">Gap Year</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="participantName">Participant 1 Full Name <span class="req">*</span></label>
+                <input type="text" id="participantName" required placeholder="e.g. Ahmed Y." />
+              </div>
+
+              <div class="field">
+                <label for="participantEmail">Participant 1 Email <span class="req">*</span></label>
+                <input type="email" id="participantEmail" required placeholder="e.g. you@example.com" />
+              </div>
+
+              <div class="field">
+                <label for="participantPhone">Participant 1 Phone (optional)</label>
+                <input type="tel" id="participantPhone" placeholder="+20 1XX XXX XXXX" />
+              </div>
+
+              <div class="field">
+                <label for="participantSchool">School / Institution <span class="req">*</span></label>
+                <input type="text" id="participantSchool" required placeholder="e.g. STEM October School" />
+              </div>
+
+              <div class="field">
+                <label for="participantCountry">Country <span class="req">*</span></label>
+                <input type="text" id="participantCountry" required placeholder="e.g. Egypt" />
+              </div>
+
+              <!-- Team fields -->
+              <div class="field" id="teamBlock" style="display:none;">
+                <label for="teamName">Team Name <span class="req">*</span></label>
+                <input type="text" id="teamName" placeholder="e.g. Team Delta" />
+              </div>
+
+              <div class="field" id="member2Block" style="display:none;">
+                <label for="member2Name">Member 2 Full Name <span class="req">*</span></label>
+                <input type="text" id="member2Name" placeholder="e.g. Sara M." />
+              </div>
+
+              <div class="field" id="member2EmailBlock" style="display:none;">
+                <label for="member2Email">Member 2 Email <span class="req">*</span></label>
+                <input type="email" id="member2Email" placeholder="e.g. sara@example.com" />
+              </div>
+
+              <div class="field" id="member3Block" style="display:none;">
+                <label for="member3Name">Member 3 Full Name (optional)</label>
+                <input type="text" id="member3Name" placeholder="e.g. John K." />
+              </div>
+
+              <div class="field" id="member3EmailBlock" style="display:none;">
+                <label for="member3Email">Member 3 Email (optional)</label>
+                <input type="email" id="member3Email" placeholder="e.g. john@example.com" />
+              </div>
+
+              <div class="field" id="member4Block" style="display:none;">
+                <label for="member4Name">Member 4 Full Name (optional)</label>
+                <input type="text" id="member4Name" placeholder="e.g. Lina A." />
+              </div>
+
+              <div class="field" id="member4EmailBlock" style="display:none;">
+                <label for="member4Email">Member 4 Email (optional)</label>
+                <input type="email" id="member4Email" placeholder="e.g. lina@example.com" />
+              </div>
+            </div>
+
+            <div style="height: 1rem;"></div>
+
+            <div class="field">
+              <label style="display:flex; align-items:flex-start; gap:0.75rem; cursor:pointer;">
+                <input type="checkbox" id="agreement" style="margin-top:0.45rem;" />
+                <span>
+                  I confirm that the information I entered is correct and that my team/individual meets the competition requirements.
+                  <span class="req">*</span>
+                </span>
+              </label>
+            </div>
+
+            <div class="bl-form__actions">
+              <button type="submit" class="btn-primary">
+                Submit Registration
+                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+
+            <div id="registrationStatus" class="bl-status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PDF MODAL (shared)
+       ============================================================ -->
+  <div id="pdfModal" class="modal pdf-modal" aria-hidden="true">
+    <div class="modal__content pdf-modal__content">
+      <div class="modal__header">
+        <h2 id="pdfModalTitle">PDF Viewer</h2>
+        <button id="pdfModalClose" class="modal__close" aria-label="Close PDF">&times;</button>
+      </div>
+      <div class="modal__body pdf-modal__body" style="padding:0;">
+        <iframe id="pdfFrame" class="pdf-modal__frame" title="PDF viewer" src="about:blank"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand-row">
+        <div class="footer__brand">
+          <img src="images/program-competition.png" alt="BioLeague Logo" class="footer__logo" />
+          <div>
+            <h3>International Bio-League</h3>
+            <p>Register and compete in two phases designed for biology excellence.</p>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#39B090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <a href="mailto:info@biologyclub.com">info@biologyclub.com</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#39B090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Global • Online Round</span> 
+            <span>• STEM October School</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__links-grid">
+        <div class="footer__col">
+          <h4>Competition</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="format.html">Format</a></li>
+            <li><a href="challenges.html">Challenges</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="format.html">Syllabus</a></li>
+            <li><a href="format.html">Brochure</a></li>
+            <li><a href="challenges.html">Past Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="registration.html">Team Registration</a></li>
+            <li><a href="registration.html">Eligibility</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__divider"></div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 International Bio-League. All rights reserved.</p>
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/company/bio-league-competition" class="footer__social footer__social--fb" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-13h4v2"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="bioleague.js"></script>
+  <script src="registration.js"></script>
+</body>
+</html>
+

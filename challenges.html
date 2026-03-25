@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Past Exams | BioLeague Challenges</title>
+  <meta name="theme-color" content="#1D5858" />
+  <link rel="icon" type="image/png" href="../../images/logo-png.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="bioleague.css" />
+</head>
+
+<body>
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav id="navbar" class="navbar">
+    <div class="navbar__inner">
+      <div class="navbar__top-row">
+        <div class="logoDiv">
+          <a href="index.html" class="navbar__logo">
+            <img src="../../images/program-competition.png" alt="BioLeague Logo" class="navbar__logo-img" />
+          </a>
+        </div>
+
+        <ul class="navbar__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="format.html">Format</a></li>
+          <li><a href="challenges.html">Challenges</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+
+        <div class="navbar__actions">
+          <button id="themeToggle" class="navbar__btn navbar__btn--theme" aria-label="Toggle dark mode">
+            <svg id="themeIcon" class="navbar__btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+            <span id="themeLabel">Dark</span>
+          </button>
+
+          <a href="registration.html" class="navbar__btn navbar__btn--contact">
+            <svg class="navbar__btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9-4-18-3 9H2"/>
+            </svg>
+            <span>Register</span>
+          </a>
+        </div>
+
+        <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu">
+          <svg class="navbar__hamburger-icon navbar__hamburger-icon--menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="navbar__hamburger-icon navbar__hamburger-icon--close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="navbar__mobile-menu" id="mobileMenu">
+        <a href="index.html" class="navbar__mobile-link">Home</a>
+        <a href="about.html" class="navbar__mobile-link">About</a>
+        <a href="format.html" class="navbar__mobile-link">Format</a>
+        <a href="challenges.html" class="navbar__mobile-link">Challenges</a>
+        <a href="resources.html" class="navbar__mobile-link">Resources</a>
+
+        <div class="navbar__mobile-actions">
+          <button id="themeToggleMobile" class="navbar__btn navbar__btn--theme navbar__btn--full" aria-label="Toggle dark mode">
+            <svg id="themeIconMobile" class="navbar__btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+            <span id="themeLabelMobile">Switch to Dark Mode</span>
+          </button>
+
+          <a href="registration.html" class="navbar__btn navbar__btn--contact navbar__btn--full">
+            <svg class="navbar__btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9-4-18-3 9H2"/>
+            </svg>
+            Register
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       PAGE CONTENT
+       ============================================================ -->
+  <section class="bl-section" style="padding-top: 3.5rem;">
+    <div class="bl-inner">
+      <div class="bl-section__head">
+        <h2 class="reveal">Past Years Exams</h2>
+        <p class="reveal" data-delay="100">Practice with past exams (and answer keys) from previous seasons.</p>
+      </div>
+
+      <div class="pdf-grid">
+        <article class="pdf-card reveal" data-delay="120">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 1 • 2024</div>
+          </div>
+          <h3 class="pdf-card__title">BioLeague Phase One 2024 .pdf</h3>
+          <p class="pdf-card__desc">Main Phase 1 exam (questions).</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3A23874841-7ba2-4c69-a66f-d828002c9e7b%3ABioLeague_Phase_One_2024_.pdf?table=block&id=3122edb7-8924-81b3-84c8-f12db3aa4298&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=BioLeague%20Phase%20One%202024%20.pdf&cache=v2"
+              data-pdf-title="BioLeague Phase One 2024 .pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3A23874841-7ba2-4c69-a66f-d828002c9e7b%3ABioLeague_Phase_One_2024_.pdf?table=block&id=3122edb7-8924-81b3-84c8-f12db3aa4298&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=BioLeague%20Phase%20One%202024%20.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card reveal" data-delay="180">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a4 4 0 0 1-4 4H7a4 4 0 0 1 0-8h1"></path>
+                <path d="M7 7a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4"></path>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 1 • 2024</div>
+          </div>
+          <h3 class="pdf-card__title">BioLeague Phase One 2024 with answers.pdf</h3>
+          <p class="pdf-card__desc">Phase 1 exam answer key.</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3A9b7abec2-f355-4dc9-a755-a84a010ca5b0%3ABioLeague_Phase_One_2024__with_answers.pdf?table=block&id=3122edb7-8924-81d3-ad61-fe0f875863d2&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=BioLeague%20Phase%20One%202024%20%20with%20answers.pdf&cache=v2"
+              data-pdf-title="BioLeague Phase One 2024 with answers.pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3A9b7abec2-f355-4dc9-a755-a84a010ca5b0%3ABioLeague_Phase_One_2024__with_answers.pdf?table=block&id=3122edb7-8924-81d3-ad61-fe0f875863d2&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=BioLeague%20Phase%20One%202024%20%20with%20answers.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card reveal" data-delay="240">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 2 • 2024</div>
+          </div>
+          <h3 class="pdf-card__title">BioLeague Phase Two 2024.pdf</h3>
+          <p class="pdf-card__desc">Main Phase 2 exam (questions).</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3Aabe9a344-6794-4749-9b5b-3b507fd879b8%3ABioLeague_Phase_Two_2024.pdf?table=block&id=3122edb7-8924-817c-98f5-ef9cf272ae60&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=BioLeague%20Phase%20Two%202024.pdf&cache=v2"
+              data-pdf-title="BioLeague Phase Two 2024.pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3Aabe9a344-6794-4749-9b5b-3b507fd879b8%3ABioLeague_Phase_Two_2024.pdf?table=block&id=3122edb7-8924-817c-98f5-ef9cf272ae60&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=BioLeague%20Phase%20Two%202024.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card reveal" data-delay="300">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a4 4 0 0 1-4 4H7a4 4 0 0 1 0-8h1"></path>
+                <path d="M7 7a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4"></path>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 2 • 2024</div>
+          </div>
+          <h3 class="pdf-card__title">Phase Two answered 2024.pdf</h3>
+          <p class="pdf-card__desc">Phase 2 answer key.</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3Ab6abc4bb-e036-4d8a-b9ad-aee5fc51082d%3APhase_Two_answered_2024.pdf?table=block&id=3122edb7-8924-8191-bfd5-f011ae51b00b&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%20answered%202024.pdf&cache=v2"
+              data-pdf-title="Phase Two answered 2024.pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3Ab6abc4bb-e036-4d8a-b9ad-aee5fc51082d%3APhase_Two_answered_2024.pdf?table=block&id=3122edb7-8924-8191-bfd5-f011ae51b00b&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%20answered%202024.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card reveal" data-delay="360">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 1 • 2023</div>
+          </div>
+          <h3 class="pdf-card__title">Phase One 2023.pdf</h3>
+          <p class="pdf-card__desc">Phase 1 exam (questions) from 2023.</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3A39aaa353-efe8-4689-8e2a-9cdaf72c5b9e%3APhase_One_2023.pdf?table=block&id=3122edb7-8924-810d-8bc7-d02e617dd646&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20One%202023.pdf&cache=v2"
+              data-pdf-title="Phase One 2023.pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3A39aaa353-efe8-4689-8e2a-9cdaf72c5b9e%3APhase_One_2023.pdf?table=block&id=3122edb7-8924-810d-8bc7-d02e617dd646&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20One%202023.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card reveal" data-delay="420">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a4 4 0 0 1-4 4H7a4 4 0 0 1 0-8h1"></path>
+                <path d="M7 7a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4"></path>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 1 • 2023</div>
+          </div>
+          <h3 class="pdf-card__title">Phase One Answers 2023.pdf</h3>
+          <p class="pdf-card__desc">Phase 1 answer key from 2023.</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3A0ca09702-daa3-4912-b3c8-772c787be0ad%3APhase_One_Answers_2023.pdf?table=block&id=3122edb7-8924-8119-9b77-c01b50c10875&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20One%20Answers%202023.pdf&cache=v2"
+              data-pdf-title="Phase One Answers 2023.pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3A0ca09702-daa3-4912-b3c8-772c787be0ad%3APhase_One_Answers_2023.pdf?table=block&id=3122edb7-8924-8119-9b77-c01b50c10875&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20One%20Answers%202023.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card reveal" data-delay="480">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 2 • 2023</div>
+          </div>
+          <h3 class="pdf-card__title">Phase Two 2023.pdf</h3>
+          <p class="pdf-card__desc">Phase 2 exam (questions) from 2023.</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3A2395d425-99d5-4265-ae89-3fec1c8ea220%3APhase_Two_2023.pdf?table=block&id=3122edb7-8924-81f6-90a7-f66e93ea4ea6&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%202023.pdf&cache=v2"
+              data-pdf-title="Phase Two 2023.pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3A2395d425-99d5-4265-ae89-3fec1c8ea220%3APhase_Two_2023.pdf?table=block&id=3122edb7-8924-81f6-90a7-f66e93ea4ea6&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%202023.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card reveal" data-delay="540">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a4 4 0 0 1-4 4H7a4 4 0 0 1 0-8h1"></path>
+                <path d="M7 7a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4"></path>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 2 • 2023</div>
+          </div>
+          <h3 class="pdf-card__title">Phase Two Answers 2023.pdf</h3>
+          <p class="pdf-card__desc">Phase 2 answer key from 2023.</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3Af4e284f7-bba1-4396-b995-eced29620266%3APhase_Two_Answers_2023.pdf?table=block&id=3122edb7-8924-81a7-9125-e02bb2a5f32a&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%20Answers%202023.pdf&cache=v2"
+              data-pdf-title="Phase Two Answers 2023.pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3Af4e284f7-bba1-4396-b995-eced29620266%3APhase_Two_Answers_2023.pdf?table=block&id=3122edb7-8924-81a7-9125-e02bb2a5f32a&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%20Answers%202023.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card reveal" data-delay="600">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 2 • 2022</div>
+          </div>
+          <h3 class="pdf-card__title">Phase Two 2022.pdf</h3>
+          <p class="pdf-card__desc">Phase 2 exam (questions) from 2022.</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3Af8144932-c6a8-425f-b02a-854e4a5643d4%3APhase_Two_2022.pdf?table=block&id=3122edb7-8924-814e-9e7c-cba5699cf489&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%202022.pdf&cache=v2"
+              data-pdf-title="Phase Two 2022.pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3Af8144932-c6a8-425f-b02a-854e4a5643d4%3APhase_Two_2022.pdf?table=block&id=3122edb7-8924-814e-9e7c-cba5699cf489&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%202022.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card reveal" data-delay="660">
+          <div class="pdf-card__top">
+            <div class="pdf-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a4 4 0 0 1-4 4H7a4 4 0 0 1 0-8h1"></path>
+                <path d="M7 7a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4"></path>
+              </svg>
+            </div>
+            <div class="pdf-card__meta">Phase 2 • 2022</div>
+          </div>
+          <h3 class="pdf-card__title">Phase Two Answers 2022.pdf</h3>
+          <p class="pdf-card__desc">Phase 2 answer key from 2022.</p>
+          <div class="pdf-card__actions">
+            <button
+              class="pdf-card__btn pdf-card__btn--primary"
+              data-pdf-open="https://piquant-coal-52d.notion.site/signed/attachment%3A2f65e94a-d611-43b8-9c1e-4adbacf3647d%3APhase_Two_Answers_2022.pdf?table=block&id=3122edb7-8924-81fa-b6c9-e480c2091b13&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%20Answers%202022.pdf&cache=v2"
+              data-pdf-title="Phase Two Answers 2022.pdf"
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Read
+            </button>
+            <a
+              class="pdf-card__btn pdf-card__btn--ghost"
+              href="https://piquant-coal-52d.notion.site/signed/attachment%3A2f65e94a-d611-43b8-9c1e-4adbacf3647d%3APhase_Two_Answers_2022.pdf?table=block&id=3122edb7-8924-81fa-b6c9-e480c2091b13&spaceId=7902edb7-8924-8167-b864-00039230aaad&name=Phase%20Two%20Answers%202022.pdf&cache=v2"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PDF MODAL (shared)
+       ============================================================ -->
+  <div id="pdfModal" class="modal pdf-modal" aria-hidden="true">
+    <div class="modal__content pdf-modal__content">
+      <div class="modal__header">
+        <h2 id="pdfModalTitle">PDF Viewer</h2>
+        <button id="pdfModalClose" class="modal__close" aria-label="Close PDF">&times;</button>
+      </div>
+      <div class="modal__body pdf-modal__body" style="padding:0;">
+        <iframe id="pdfFrame" class="pdf-modal__frame" title="PDF viewer" src="about:blank"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand-row">
+        <div class="footer__brand">
+          <img src="../../images/program-competition.png" alt="BioLeague Logo" class="footer__logo" />
+          <div>
+            <h3>International Bio-League</h3>
+            <p>Practice with past exams (questions + answer keys).</p>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#39B090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <a href="mailto:info@biologyclub.com">info@biologyclub.com</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#39B090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Global • Online Round</span> 
+            <span>• STEM October School</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__links-grid">
+        <div class="footer__col">
+          <h4>Competition</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="format.html">Format</a></li>
+            <li><a href="challenges.html">Challenges</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="format.html">Syllabus</a></li>
+            <li><a href="format.html">Brochure</a></li>
+            <li><a href="challenges.html">Past Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="registration.html">Team Registration</a></li>
+            <li><a href="registration.html">Eligibility</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__divider"></div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 International Bio-League. All rights reserved.</p>
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/company/bio-league-competition" class="footer__social footer__social--fb" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-13h4v2"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="bioleague.js"></script>
+</body>
+</html>
+
